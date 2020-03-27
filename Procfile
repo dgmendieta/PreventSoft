@@ -1,0 +1,1 @@
+web: gunicorn PreventSoft.wsgi --log-file -

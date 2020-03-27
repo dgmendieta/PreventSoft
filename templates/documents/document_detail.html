@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}      
+
+
+<div class="col-12">
+                <h1>Detalles de Documento APR</h1>
+                
+        
+        {% if user.is_authenticated %}
+            {% include 'apr_detail.html' %}
+        {% else %}
+        <div class="col-md-8">
+            <p>Debe acceder con su nombre de usuario y contraseña para ver este contenido</p>
+            <a href="{% url 'index' %}" class="btn btn-primary">Ir al Login</a>
+        </div>        
+        {% endif %}             
+        
+       
+        </div>  
+{% endblock %}

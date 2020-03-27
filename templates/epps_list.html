@@ -1,0 +1,35 @@
+{% load static %}
+<div class="col-md-12">
+        <table id="epp_table" class="list_table">
+            <thead>
+                <tr>
+                    <th>Linea</th>
+                    <th>Nombre</th>
+                    <th>Fecha</th>
+                    <th>Imagen</th>
+                    <th>Editar</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+
+        <tbody>
+        {% for epp in epps %} 
+            <tr>
+                <td>{{ forloop.counter }}</td>
+                <td>{{ epp.name }}</td>
+                <td>{{ epp.created_at }}</td>
+                <td>{% if epp.image %}
+                        <img src="{{ epp.image.url }}" alt="{{ epp.name }}" 
+                        height="60" width="60">
+                    {% endif %} 
+                </td>       
+                <td><a class="btn btn-success" href="{% url 'epp_edit' pk=epp.pk %}" role="button">
+                        Editar</a></td>
+                <td><a class="btn btn-danger" href="{% url 'epp_delete' pk=epp.pk %}" role="button" 
+                       onclick="return confirm('Está seguro que desea eliminar este ítem? Los cambios no podrán revertirse.')">Eliminar</a></td>
+            </tr>
+        {% endfor %}  
+        </tbody>
+
+    </table>
+</div>

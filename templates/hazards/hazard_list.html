@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}      
+
+	<h1>{{ message }}</h1>
+
+	    {% if user.is_authenticated and user.is_superuser %} 
+            {% include 'hazards_list.html' %}
+        {% else %}
+        <div class="col-md-8">
+            <p>Debe acceder con su nombre de usuario y contraseña para ver este contenido</p>
+            <a href="{% url 'index' %}" class="btn btn-primary">Ir al Login</a>  
+        </div>      
+        {% endif %}       
+
+
+
+{% endblock %}

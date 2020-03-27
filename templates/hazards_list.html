@@ -1,0 +1,27 @@
+
+<div class="col-md-12">
+        <table id="hazard_table" class="list_table">
+            <thead>
+                <tr>
+                    <th>Linea</th>
+                    <th>Nombre</th>
+                    <th>Fecha</th>
+                    <th>Editar</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+
+        <tbody>
+        {% for hazard in hazards %} 
+            <tr>
+                <td>{{ forloop.counter }}</td>
+                <td>{{ hazard.name }}</td>
+                <td>{{ hazard.created_at }}</td>
+                <td><a class="btn btn-success" href="{% url 'hazard_edit' pk=hazard.pk %}" role="button">Editar</a></td>
+                <td><a class="btn btn-danger" href="{% url 'hazard_delete' pk=hazard.pk %}" role="button" onclick="return confirm('Está seguro que desea eliminar este ítem? Los cambios no podrán revertirse.')">Eliminar</a></td>
+            </tr>
+        {% endfor %}  
+        </tbody>
+
+    </table>
+</div>

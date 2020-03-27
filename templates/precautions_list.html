@@ -1,0 +1,27 @@
+
+<div class="col-md-12">
+        <table id="precaution_table" class="list_table">
+            <thead>
+                <tr>
+                    <th>Linea</th>
+                    <th>Nombre</th>
+                    <th>Fecha</th>
+                    <th>Editar</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+
+        <tbody>
+        {% for precaution in precautions %} 
+            <tr>
+                <td>{{ forloop.counter }}</td>
+                <td>{{ precaution.name }}</td>
+                <td>{{ precaution.created_at }}</td>
+                <td><a class="btn btn-success" href="{% url 'precaution_edit' pk=precaution.pk %}" role="button">Editar</a></td>
+                <td><a class="btn btn-danger" href="{% url 'precaution_delete' pk=precaution.pk %}" role="button" onclick="return confirm('Está seguro que desea eliminar este ítem? Los cambios no podrán revertirse.')">Eliminar</a></td>
+            </tr>
+        {% endfor %}  
+        </tbody>
+
+    </table>
+</div>

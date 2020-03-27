@@ -1,0 +1,41 @@
+<div class="col-md-12">
+        <table id="doc_table" class="list_table">
+            <thead>
+                <tr>
+                    <th>Número</th>
+                    <th>Título</th>
+                    <th>Estado</th>
+                    <th>Fecha</th>
+                    <th>Usuario</th>
+                {% if user.is_authenticated and user.is_superuser %}  
+                    <th>Editar</th>
+                    <th>Ver documento</th>
+                {% else %}
+                    <th>Ver documento</th>    
+                {% endif %}    
+                </tr>
+            </thead>
+
+        <tbody>
+        {% for apr in aprs %} 
+            <tr>
+                <td>{{ apr.documentnumber }}</td>
+                <td>{{ apr.title }}</td>
+                <td>{{ apr.status }}</td>
+                <td>{{ apr.created_at }}</td>
+                <td>{{ apr.user }}</td>
+                {% if user.is_authenticated and user.is_superuser %}
+                    <td><a class="btn btn-success" href="{% url 'document_edit' pk=apr.pk %}" role="button">
+                     Editar</a></td>
+                    <td><a class="btn btn-dark" href="{% url 'document_detail' pk=apr.pk %}" role="button">
+                     Ver Detalle</a></td>
+                {% else %}
+                    <td><a class="btn btn-dark" href="{% url 'document_detail' pk=apr.pk %}" role="button">
+                     Ver Detalle</a></td>    
+                {% endif %}      
+            </tr>
+        {% endfor %}  
+        </tbody>
+
+    </table>
+</div>

@@ -1,0 +1,37 @@
+<!-- This template shows a list of users
+and allow edit them and delete them. 
+It´s included at users/user_list.html -->
+<div class="col-md-12">
+        <table id="user_table" class="list_table">
+            <thead>
+                <tr>
+                    <th>Nombre de Usuario</th>
+                    <th>Ingreso</th>
+                    <th>Administrador</th>
+                    <th>Editar Usuario</th>
+                    <th>Eliminar Usuario</th>    
+                </tr>
+            </thead>
+
+        <tbody>
+            <!-- This table is a jQuery DataTable  -->
+        {% for u in list %} 
+            <tr>
+                <td>{{ u.username }}</td>
+                <td>{{ u.date_joined }}</td>
+                <td>{% if u.is_superuser %}
+                        <span class="fas fa-check-square"></span>
+                    {% else %}
+                        <span class="fas fa-times-circle"></span>
+                    {% endif %}        
+                </td>
+                <td><a class="btn btn-dark" href="{% url 'user_edit' pk=u.pk %}" role="button">
+                     Editar</a></td>
+                <td><a class="btn btn-danger" href="{% url 'user_delete' pk=u.pk %}" role="button" 
+                    onclick="return confirm('Está seguro de eliminar este Usuario? Los cambios no podrán revertirse')">Eliminar</a></td>
+            </tr>
+        {% endfor %}  
+        </tbody>
+
+    </table>
+</div>

@@ -1,0 +1,4551 @@
+[
+{
+    "model": "tool.tool",
+    "pk": 1,
+    "fields": {
+        "name": "Amoladora",
+        "created_at": "2020-02-20T01:15:38.855Z",
+        "image": "tool/prueba-01-ketF-U2131796188083t-575x323El_Correo.jpg"
+    }
+},
+{
+    "model": "tool.tool",
+    "pk": 2,
+    "fields": {
+        "name": "Soldadora El\u00e9ctrica",
+        "created_at": "2020-02-20T01:15:50.773Z",
+        "image": "tool/prueba-01-ketF-U2131796188083t-575x323El_Correo_olWy5ZX.jpg"
+    }
+},
+{
+    "model": "tool.tool",
+    "pk": 3,
+    "fields": {
+        "name": "Solpete",
+        "created_at": "2020-02-20T01:16:07.234Z",
+        "image": "tool/prueba-01-ketF-U2131796188083t-575x323El_Correo_H4AHwKx.jpg"
+    }
+},
+{
+    "model": "tool.tool",
+    "pk": 4,
+    "fields": {
+        "name": "Taladro de banco",
+        "created_at": "2020-02-22T00:18:46.951Z",
+        "image": "tool/prueba-01-ketF-U2131796188083t-575x323El_Correo_PRW0AoU.jpg"
+    }
+},
+{
+    "model": "tool.tool",
+    "pk": 5,
+    "fields": {
+        "name": "Gr\u00faa 30 Ton",
+        "created_at": "2020-03-12T20:57:27.226Z",
+        "image": ""
+    }
+},
+{
+    "model": "tool.tool",
+    "pk": 6,
+    "fields": {
+        "name": "Gr\u00faa 50 Ton",
+        "created_at": "2020-03-12T20:57:44.839Z",
+        "image": ""
+    }
+},
+{
+    "model": "tool.tool",
+    "pk": 7,
+    "fields": {
+        "name": "Chispero",
+        "created_at": "2020-03-12T20:58:00.201Z",
+        "image": ""
+    }
+},
+{
+    "model": "tool.tool",
+    "pk": 8,
+    "fields": {
+        "name": "Plataforma m\u00f3vil",
+        "created_at": "2020-03-12T21:10:43.294Z",
+        "image": ""
+    }
+},
+{
+    "model": "tool.tool",
+    "pk": 9,
+    "fields": {
+        "name": "Alargue",
+        "created_at": "2020-03-12T21:10:54.373Z",
+        "image": ""
+    }
+},
+{
+    "model": "tool.tool",
+    "pk": 10,
+    "fields": {
+        "name": "Puente gr\u00faa",
+        "created_at": "2020-03-12T21:12:07.775Z",
+        "image": ""
+    }
+},
+{
+    "model": "tool.tool",
+    "pk": 11,
+    "fields": {
+        "name": "Fajas",
+        "created_at": "2020-03-12T21:12:18.316Z",
+        "image": ""
+    }
+},
+{
+    "model": "tool.tool",
+    "pk": 13,
+    "fields": {
+        "name": "Faja textil",
+        "created_at": "2020-03-12T21:45:03.398Z",
+        "image": ""
+    }
+},
+{
+    "model": "tool.tool",
+    "pk": 14,
+    "fields": {
+        "name": "Eslinga de cable de acero",
+        "created_at": "2020-03-12T21:45:20.557Z",
+        "image": ""
+    }
+},
+{
+    "model": "tool.tool",
+    "pk": 15,
+    "fields": {
+        "name": "Grilletes",
+        "created_at": "2020-03-12T21:45:46.436Z",
+        "image": ""
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 1,
+    "fields": {
+        "name": "Guantes de Nitrilo",
+        "created_at": "2020-02-24T17:35:01.648Z",
+        "tools": [
+            1
+        ]
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 2,
+    "fields": {
+        "name": "Guantes de Soldador",
+        "created_at": "2020-02-24T17:35:14.072Z",
+        "tools": [
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 3,
+    "fields": {
+        "name": "Gafas transparentes",
+        "created_at": "2020-02-24T17:35:24.986Z",
+        "tools": [
+            1,
+            4
+        ]
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 4,
+    "fields": {
+        "name": "Arn\u00e9s de Seguridad",
+        "created_at": "2020-03-12T20:52:50.566Z",
+        "tools": []
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 5,
+    "fields": {
+        "name": "Polainas",
+        "created_at": "2020-03-12T20:53:13.431Z",
+        "tools": []
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 7,
+    "fields": {
+        "name": "Gafas oscuras",
+        "created_at": "2020-03-12T20:54:04.256Z",
+        "tools": []
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 8,
+    "fields": {
+        "name": "Rodilleras",
+        "created_at": "2020-03-12T20:54:11.913Z",
+        "tools": []
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 9,
+    "fields": {
+        "name": "Casco",
+        "created_at": "2020-03-12T20:54:16.805Z",
+        "tools": []
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 10,
+    "fields": {
+        "name": "Mascarilla para polvo",
+        "created_at": "2020-03-12T20:54:38.636Z",
+        "tools": []
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 11,
+    "fields": {
+        "name": "Mascarilla para vapores org\u00e1nicos",
+        "created_at": "2020-03-12T20:54:56.268Z",
+        "tools": []
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 12,
+    "fields": {
+        "name": "Orejeras",
+        "created_at": "2020-03-12T20:55:12.568Z",
+        "tools": []
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 13,
+    "fields": {
+        "name": "Zapatos con puntera pl\u00e1stica",
+        "created_at": "2020-03-12T20:55:32.290Z",
+        "tools": []
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 14,
+    "fields": {
+        "name": "Zapato con puntera acero",
+        "created_at": "2020-03-12T20:55:45.089Z",
+        "tools": []
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 15,
+    "fields": {
+        "name": "Botines de seguridad",
+        "created_at": "2020-03-12T20:55:56.185Z",
+        "tools": []
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 16,
+    "fields": {
+        "name": "Mandil",
+        "created_at": "2020-03-12T20:56:01.435Z",
+        "tools": []
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 17,
+    "fields": {
+        "name": "Chaleco reflectivo",
+        "created_at": "2020-03-12T20:56:20.581Z",
+        "tools": []
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 18,
+    "fields": {
+        "name": "Cabo amarre sin amortiguador o retr\u00e1ctil",
+        "created_at": "2020-03-12T21:08:00.076Z",
+        "tools": []
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 19,
+    "fields": {
+        "name": "Cabo amarre con amortiguador o retr\u00e1ctil",
+        "created_at": "2020-03-12T21:08:42.839Z",
+        "tools": []
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 20,
+    "fields": {
+        "name": "Careta de soldar",
+        "created_at": "2020-03-12T21:09:03.498Z",
+        "tools": []
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 21,
+    "fields": {
+        "name": "Delantal de cuero",
+        "created_at": "2020-03-12T21:09:15.349Z",
+        "tools": []
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 22,
+    "fields": {
+        "name": "Pantalla facial",
+        "created_at": "2020-03-12T21:09:44.559Z",
+        "tools": []
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 23,
+    "fields": {
+        "name": "Lente oxicorte",
+        "created_at": "2020-03-12T21:10:00.093Z",
+        "tools": []
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 24,
+    "fields": {
+        "name": "Guantes de protecci\u00f3n mec\u00e1nica",
+        "created_at": "2020-03-12T21:13:36.575Z",
+        "tools": []
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 25,
+    "fields": {
+        "name": "Pantalla facial oscura",
+        "created_at": "2020-03-12T21:14:01.223Z",
+        "tools": []
+    }
+},
+{
+    "model": "EPP.epp",
+    "pk": 26,
+    "fields": {
+        "name": "Protecci\u00f3n auditiva",
+        "created_at": "2020-03-12T21:46:29.740Z",
+        "tools": []
+    }
+},
+{
+    "model": "hazard.hazard",
+    "pk": 4,
+    "fields": {
+        "name": "Quemadura",
+        "created_at": "2020-03-12T21:14:55.877Z",
+        "tools": []
+    }
+},
+{
+    "model": "hazard.hazard",
+    "pk": 5,
+    "fields": {
+        "name": "Explosi\u00f3n e incendio",
+        "created_at": "2020-03-12T21:15:06.337Z",
+        "tools": []
+    }
+},
+{
+    "model": "hazard.hazard",
+    "pk": 6,
+    "fields": {
+        "name": "Proyecci\u00f3n de part\u00edculas",
+        "created_at": "2020-03-12T21:15:17.558Z",
+        "tools": []
+    }
+},
+{
+    "model": "hazard.hazard",
+    "pk": 7,
+    "fields": {
+        "name": "Ca\u00edda mismo nivel",
+        "created_at": "2020-03-12T21:15:31.798Z",
+        "tools": []
+    }
+},
+{
+    "model": "hazard.hazard",
+    "pk": 8,
+    "fields": {
+        "name": "Ca\u00edda distinto nivel",
+        "created_at": "2020-03-12T21:47:00.622Z",
+        "tools": []
+    }
+},
+{
+    "model": "hazard.hazard",
+    "pk": 9,
+    "fields": {
+        "name": "Radiaciones no ionizantes",
+        "created_at": "2020-03-12T21:47:16.359Z",
+        "tools": []
+    }
+},
+{
+    "model": "hazard.hazard",
+    "pk": 10,
+    "fields": {
+        "name": "Corte",
+        "created_at": "2020-03-12T21:47:30.784Z",
+        "tools": []
+    }
+},
+{
+    "model": "hazard.hazard",
+    "pk": 11,
+    "fields": {
+        "name": "Ruido",
+        "created_at": "2020-03-12T21:47:40.582Z",
+        "tools": []
+    }
+},
+{
+    "model": "hazard.hazard",
+    "pk": 12,
+    "fields": {
+        "name": "Apretamiento",
+        "created_at": "2020-03-12T21:47:51.632Z",
+        "tools": []
+    }
+},
+{
+    "model": "hazard.hazard",
+    "pk": 13,
+    "fields": {
+        "name": "Aplastamiento",
+        "created_at": "2020-03-12T21:48:01.493Z",
+        "tools": []
+    }
+},
+{
+    "model": "hazard.hazard",
+    "pk": 14,
+    "fields": {
+        "name": "Ca\u00edda de objetos en manipulaci\u00f3n",
+        "created_at": "2020-03-12T21:48:11.481Z",
+        "tools": []
+    }
+},
+{
+    "model": "hazard.hazard",
+    "pk": 15,
+    "fields": {
+        "name": "Ca\u00edda de pieza durante el izaje",
+        "created_at": "2020-03-12T21:48:48.565Z",
+        "tools": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 4,
+    "fields": {
+        "name": "Verificar correcto estado de equipos y herramietas",
+        "created_at": "2020-03-12T21:16:33.375Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 5,
+    "fields": {
+        "name": "Hacer ckl pre-uso de puente gr\u00faa",
+        "created_at": "2020-03-12T21:16:58.950Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 6,
+    "fields": {
+        "name": "Check list de pre uso",
+        "created_at": "2020-03-12T21:17:52.838Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 7,
+    "fields": {
+        "name": "Revisi\u00f3n de fajas",
+        "created_at": "2020-03-12T21:18:05.871Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 8,
+    "fields": {
+        "name": "Correcto uso y en buen estado de todos los epp",
+        "created_at": "2020-03-12T21:18:17.092Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 9,
+    "fields": {
+        "name": "Encender soplete con chispero",
+        "created_at": "2020-03-12T21:18:46.518Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 10,
+    "fields": {
+        "name": "\u00c1rea libre de grasa y aceite o trapos sucios",
+        "created_at": "2020-03-12T21:19:19.622Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 11,
+    "fields": {
+        "name": "Contar con extintor en el \u00e1rea",
+        "created_at": "2020-03-12T21:19:33.703Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 12,
+    "fields": {
+        "name": "Atenci\u00f3n en la tarea",
+        "created_at": "2020-03-12T21:19:44.771Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 13,
+    "fields": {
+        "name": "Despejar de estructuras que generen tropiezos",
+        "created_at": "2020-03-12T21:20:41.780Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 14,
+    "fields": {
+        "name": "Cortar de costado",
+        "created_at": "2020-03-12T21:21:02.737Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 15,
+    "fields": {
+        "name": "Amarrar cada parante con faja y puente gr\u00faa",
+        "created_at": "2020-03-12T21:21:25.590Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 16,
+    "fields": {
+        "name": "Mantener pre tensado con el puente",
+        "created_at": "2020-03-12T21:21:39.749Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 17,
+    "fields": {
+        "name": "Mantener distancia segura",
+        "created_at": "2020-03-12T21:22:10.697Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 18,
+    "fields": {
+        "name": "Cuerda como gu\u00eda",
+        "created_at": "2020-03-12T21:22:55.298Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 19,
+    "fields": {
+        "name": "Asegurar trayecto de carga suspendida",
+        "created_at": "2020-03-12T21:23:41.900Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 20,
+    "fields": {
+        "name": "Atenci\u00f3n en interacci\u00f3n con estructuras",
+        "created_at": "2020-03-12T21:42:09.215Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 21,
+    "fields": {
+        "name": "Atenci\u00f3n tr\u00e1nsito de otros equipos",
+        "created_at": "2020-03-12T21:42:39.375Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 22,
+    "fields": {
+        "name": "Atenci\u00f3n tr\u00e1nsito de colaboradores",
+        "created_at": "2020-03-12T21:43:06.192Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 23,
+    "fields": {
+        "name": "Se\u00f1alizar la zona previo al izaje",
+        "created_at": "2020-03-12T21:49:51.576Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 24,
+    "fields": {
+        "name": "Aislaci\u00f3n correcta de alargues",
+        "created_at": "2020-03-12T21:50:50.319Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 25,
+    "fields": {
+        "name": "Amoladora con protecciones",
+        "created_at": "2020-03-12T21:51:13.807Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 26,
+    "fields": {
+        "name": "Disco de amoladora adecuado",
+        "created_at": "2020-03-12T21:51:27.278Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 27,
+    "fields": {
+        "name": "Amarrado el 100 % del tiempo",
+        "created_at": "2020-03-12T21:52:24.101Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 28,
+    "fields": {
+        "name": "Realizar plan de izaje con gruista",
+        "created_at": "2020-03-12T21:52:43.573Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 29,
+    "fields": {
+        "name": "Tener en cuenta radio de giro gr\u00faa",
+        "created_at": "2020-03-12T21:53:10.030Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 30,
+    "fields": {
+        "name": "Comunicaci\u00f3n con gruista",
+        "created_at": "2020-03-12T21:53:28.877Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 31,
+    "fields": {
+        "name": "Establecer se\u00f1alero",
+        "created_at": "2020-03-12T21:53:43.739Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 32,
+    "fields": {
+        "name": "Todos deben unirse a los bloqueos de energ\u00eda",
+        "created_at": "2020-03-12T21:54:19.511Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 33,
+    "fields": {
+        "name": "Determinar responsable se\u00f1as a gruista",
+        "created_at": "2020-03-12T21:58:30.673Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 34,
+    "fields": {
+        "name": "No superponer tareas",
+        "created_at": "2020-03-12T21:59:43.374Z",
+        "precautions": []
+    }
+},
+{
+    "model": "precaution.precaution",
+    "pk": 35,
+    "fields": {
+        "name": "Atropello trabajadores zona de tr\u00e1nsito o izaje",
+        "created_at": "2020-03-12T22:00:40.261Z",
+        "precautions": []
+    }
+},
+{
+    "model": "APR.aprline",
+    "pk": 20,
+    "fields": {
+        "activities": "Poner cilindro",
+        "apr": 31,
+        "tools": [
+            1,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            15
+        ],
+        "epps": [
+            2,
+            3,
+            4,
+            9,
+            13,
+            18,
+            20,
+            22,
+            26
+        ],
+        "hazards": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            14,
+            15
+        ],
+        "precautions": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            18,
+            26,
+            30,
+            34
+        ]
+    }
+},
+{
+    "model": "APR.aprline",
+    "pk": 23,
+    "fields": {
+        "activities": "montaje",
+        "apr": 31,
+        "tools": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "epps": [
+            12,
+            13,
+            14,
+            15,
+            16
+        ],
+        "hazards": [
+            4,
+            5,
+            6,
+            7
+        ],
+        "precautions": [
+            4,
+            5,
+            6,
+            7,
+            8
+        ]
+    }
+},
+{
+    "model": "APR.aprline",
+    "pk": 28,
+    "fields": {
+        "activities": "Montaje editado",
+        "apr": 34,
+        "tools": [
+            1,
+            2,
+            3
+        ],
+        "epps": [
+            1,
+            3
+        ],
+        "hazards": [
+            4,
+            6
+        ],
+        "precautions": [
+            4,
+            6
+        ]
+    }
+},
+{
+    "model": "APR.aprline",
+    "pk": 29,
+    "fields": {
+        "activities": "Prueba para video editado",
+        "apr": 35,
+        "tools": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "epps": [
+            1,
+            11,
+            16,
+            20
+        ],
+        "hazards": [
+            4,
+            8,
+            14
+        ],
+        "precautions": [
+            4,
+            5,
+            6,
+            18,
+            21
+        ]
+    }
+},
+{
+    "model": "APR.aprline",
+    "pk": 32,
+    "fields": {
+        "activities": "Cortar estructura",
+        "apr": 37,
+        "tools": [
+            1,
+            2,
+            3,
+            4,
+            14,
+            15
+        ],
+        "epps": [
+            4,
+            15,
+            16,
+            17
+        ],
+        "hazards": [
+            4,
+            6,
+            7
+        ],
+        "precautions": [
+            4,
+            6,
+            7
+        ]
+    }
+},
+{
+    "model": "APR.aprline",
+    "pk": 33,
+    "fields": {
+        "activities": "Soldar nueva estructura",
+        "apr": 37,
+        "tools": [
+            1,
+            2,
+            3
+        ],
+        "epps": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16
+        ],
+        "hazards": [
+            4,
+            5,
+            6,
+            7
+        ],
+        "precautions": [
+            5,
+            7,
+            14,
+            15
+        ]
+    }
+},
+{
+    "model": "APR.aprline",
+    "pk": 37,
+    "fields": {
+        "activities": "Hacer pozo",
+        "apr": 40,
+        "tools": [
+            2,
+            5,
+            13,
+            14
+        ],
+        "epps": [
+            1,
+            5,
+            7,
+            8,
+            15,
+            16
+        ],
+        "hazards": [
+            5,
+            6,
+            9,
+            13,
+            14
+        ],
+        "precautions": [
+            4,
+            5,
+            6,
+            13,
+            14
+        ]
+    }
+},
+{
+    "model": "APR.aprline",
+    "pk": 38,
+    "fields": {
+        "activities": "Encofrado",
+        "apr": 40,
+        "tools": [
+            3,
+            7,
+            8
+        ],
+        "epps": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "hazards": [
+            5,
+            7
+        ],
+        "precautions": [
+            4,
+            6,
+            7
+        ]
+    }
+},
+{
+    "model": "APR.aprline",
+    "pk": 39,
+    "fields": {
+        "activities": "Llenar hormig\u00f3n",
+        "apr": 40,
+        "tools": [
+            5,
+            7,
+            8
+        ],
+        "epps": [
+            1,
+            11,
+            12,
+            13
+        ],
+        "hazards": [
+            5,
+            6,
+            7
+        ],
+        "precautions": [
+            4,
+            5,
+            7
+        ]
+    }
+},
+{
+    "model": "APR.aprline",
+    "pk": 40,
+    "fields": {
+        "activities": "Revestir",
+        "apr": 40,
+        "tools": [
+            2,
+            3,
+            4
+        ],
+        "epps": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "hazards": [
+            4,
+            6,
+            7
+        ],
+        "precautions": [
+            4,
+            5,
+            7
+        ]
+    }
+},
+{
+    "model": "APR.aprline",
+    "pk": 41,
+    "fields": {
+        "activities": "Llenar de agua y probar",
+        "apr": 40,
+        "tools": [
+            2,
+            3,
+            4
+        ],
+        "epps": [
+            1,
+            2,
+            3
+        ],
+        "hazards": [
+            4,
+            6,
+            7
+        ],
+        "precautions": [
+            4,
+            6,
+            13,
+            14,
+            15
+        ]
+    }
+},
+{
+    "model": "APR.aprline",
+    "pk": 42,
+    "fields": {
+        "activities": "Chequear cableado",
+        "apr": 41,
+        "tools": [
+            2
+        ],
+        "epps": [
+            3
+        ],
+        "hazards": [
+            5
+        ],
+        "precautions": [
+            5
+        ]
+    }
+},
+{
+    "model": "APR.aprline",
+    "pk": 43,
+    "fields": {
+        "activities": "Corregir \u00e1ngulo de visi\u00f3n",
+        "apr": 41,
+        "tools": [
+            5
+        ],
+        "epps": [
+            2
+        ],
+        "hazards": [
+            6
+        ],
+        "precautions": [
+            6
+        ]
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "tools",
+        "model": "tools"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "tool",
+        "model": "tool"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "EPP",
+        "model": "epp"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "hazard",
+        "model": "hazard"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "precaution",
+        "model": "precaution"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "APR",
+        "model": "apr"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "APR",
+        "model": "aprline"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "APR",
+        "model": "aprstatus"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "4pcohdvwee4yozexycltcuuiefgikait",
+    "fields": {
+        "session_data": "NDcwOTYwNTE1NjBiZWM5MTNiZGE5NGI1MzFhNDFlMzQwYWQ0NWIzMDp7fQ==",
+        "expire_date": "2020-03-18T18:50:45.312Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "dq4cqun0khh6zse6p3ce2w7j3wkdvar7",
+    "fields": {
+        "session_data": "NDcwOTYwNTE1NjBiZWM5MTNiZGE5NGI1MzFhNDFlMzQwYWQ0NWIzMDp7fQ==",
+        "expire_date": "2020-03-18T18:30:25.760Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "mpa4yhzujyygmvjcexew1482y7cijc55",
+    "fields": {
+        "session_data": "NDcwOTYwNTE1NjBiZWM5MTNiZGE5NGI1MzFhNDFlMzQwYWQ0NWIzMDp7fQ==",
+        "expire_date": "2020-03-18T18:29:20.185Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "oki6xcx0wsx85x7g0np0lk3o9zk2dpxq",
+    "fields": {
+        "session_data": "NDcwOTYwNTE1NjBiZWM5MTNiZGE5NGI1MzFhNDFlMzQwYWQ0NWIzMDp7fQ==",
+        "expire_date": "2020-03-18T18:28:09.484Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "xeqeyrfiq13x5imp3ssj2nfuuhznwv0d",
+    "fields": {
+        "session_data": "NDcwOTYwNTE1NjBiZWM5MTNiZGE5NGI1MzFhNDFlMzQwYWQ0NWIzMDp7fQ==",
+        "expire_date": "2020-03-18T18:29:56.015Z"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add tools",
+        "content_type": 7,
+        "codename": "add_tools"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change tools",
+        "content_type": 7,
+        "codename": "change_tools"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete tools",
+        "content_type": 7,
+        "codename": "delete_tools"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view tools",
+        "content_type": 7,
+        "codename": "view_tools"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add tools",
+        "content_type": 8,
+        "codename": "add_tools"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change tools",
+        "content_type": 8,
+        "codename": "change_tools"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete tools",
+        "content_type": 8,
+        "codename": "delete_tools"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view tools",
+        "content_type": 8,
+        "codename": "view_tools"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add tool",
+        "content_type": 8,
+        "codename": "add_tool"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change tool",
+        "content_type": 8,
+        "codename": "change_tool"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete tool",
+        "content_type": 8,
+        "codename": "delete_tool"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view tool",
+        "content_type": 8,
+        "codename": "view_tool"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add epp",
+        "content_type": 9,
+        "codename": "add_epp"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change epp",
+        "content_type": 9,
+        "codename": "change_epp"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete epp",
+        "content_type": 9,
+        "codename": "delete_epp"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view epp",
+        "content_type": 9,
+        "codename": "view_epp"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add hazard",
+        "content_type": 10,
+        "codename": "add_hazard"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change hazard",
+        "content_type": 10,
+        "codename": "change_hazard"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete hazard",
+        "content_type": 10,
+        "codename": "delete_hazard"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view hazard",
+        "content_type": 10,
+        "codename": "view_hazard"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add precaution",
+        "content_type": 11,
+        "codename": "add_precaution"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change precaution",
+        "content_type": 11,
+        "codename": "change_precaution"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete precaution",
+        "content_type": 11,
+        "codename": "delete_precaution"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view precaution",
+        "content_type": 11,
+        "codename": "view_precaution"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add apr",
+        "content_type": 12,
+        "codename": "add_apr"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change apr",
+        "content_type": 12,
+        "codename": "change_apr"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete apr",
+        "content_type": 12,
+        "codename": "delete_apr"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view apr",
+        "content_type": 12,
+        "codename": "view_apr"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add apr line",
+        "content_type": 13,
+        "codename": "add_aprline"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change apr line",
+        "content_type": 13,
+        "codename": "change_aprline"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete apr line",
+        "content_type": 13,
+        "codename": "delete_aprline"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view apr line",
+        "content_type": 13,
+        "codename": "view_aprline"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add apr status",
+        "content_type": 14,
+        "codename": "add_aprstatus"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change apr status",
+        "content_type": 14,
+        "codename": "change_aprstatus"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete apr status",
+        "content_type": 14,
+        "codename": "delete_aprstatus"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view apr status",
+        "content_type": 14,
+        "codename": "view_aprstatus"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$150000$vK1a6oN3dKZy$fSDHtawyS6joKCvhQXdeMW3TTn/upAgiIt5aGLm0HEA=",
+        "last_login": "2020-03-19T19:08:45.200Z",
+        "is_superuser": true,
+        "username": "dgmendieta@gmail.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "dgmendieta@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-02-11T02:25:49.064Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "Waderlinnesmar_73",
+        "last_login": "2020-03-18T15:19:44.835Z",
+        "is_superuser": true,
+        "username": "laura@laura.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "laura@laura.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-02-11T02:28:35Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+        "password": "Waderlinnesmar_73",
+        "last_login": "2020-03-15T17:07:08.056Z",
+        "is_superuser": true,
+        "username": "carolyn@carolyn.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "carolyn@carolyn.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-02-11T02:30:07Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 24,
+    "fields": {
+        "password": "Waderlinnesmar_73",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "diego@diego.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "diego@diego.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-03-18T15:22:42.792Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 25,
+    "fields": {
+        "password": "Waderlinnesmar_73",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "fabricio@fabricio.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "fabricio@fabricio.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-03-19T18:35:20.261Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 26,
+    "fields": {
+        "password": "clave",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "clave@clave.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "clave@clave.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-03-19T19:09:25.552Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2020-02-11T02:28:36.107Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "Laura",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2020-02-11T02:29:02.931Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "Laura",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"is_staff\", \"is_superuser\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2020-02-11T02:29:34.557Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "Fabricio",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2020-02-11T02:29:44.980Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "Fabricio",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"is_staff\", \"is_superuser\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2020-02-11T02:30:08.221Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "4",
+        "object_repr": "Carolyn",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2020-02-11T02:30:25.468Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "4",
+        "object_repr": "Carolyn",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"is_staff\", \"is_superuser\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2020-02-13T18:17:04.347Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Tools object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2020-02-13T18:17:13.290Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Tools object (1)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2020-02-13T18:17:26.611Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Tools object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2020-02-13T18:17:44.862Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Tools object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2020-02-13T18:29:18.646Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Amo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2020-02-13T18:29:26.150Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Amo",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2020-02-13T18:29:33.507Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Amoladora",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2020-02-13T18:29:39.995Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Soldadora El\u00e9ctrica",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2020-02-13T18:29:46.000Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Solpete",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2020-02-13T18:29:56.796Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Gr\u00faa 30 Ton",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2020-02-13T18:30:13.986Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "Sierra Circular",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2020-02-13T18:30:20.066Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Taladro de Mano",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2020-02-13T18:30:41.487Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "Taladro de banco",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2020-02-20T00:16:48.223Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "Taladro de banco",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2020-02-20T00:16:48.343Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Taladro de Mano",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2020-02-20T00:16:48.418Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "Sierra Circular",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2020-02-20T00:16:48.493Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Gr\u00faa 30 Ton",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2020-02-20T00:16:48.577Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Solpete",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2020-02-20T00:16:48.677Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Soldadora El\u00e9ctrica",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2020-02-20T00:16:48.752Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Amoladora",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2020-02-20T00:20:26.028Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Amoladora",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2020-02-20T00:20:46.741Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Soldadora El\u00e9ctrica",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2020-02-20T00:20:54.737Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Solpete",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2020-02-20T00:21:14.578Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Gr\u00faa 30 Ton",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2020-02-20T00:21:26.096Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Sierra Circular",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2020-02-20T00:21:38.550Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "Taladro de banco",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2020-02-20T00:21:48.447Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Taladro de Mano",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2020-02-20T00:31:15.459Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "Gr\u00faa 50 Ton",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2020-02-20T00:43:38.338Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "Martillo Neum\u00e1tico",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2020-02-20T00:55:02.877Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "10",
+        "object_repr": "Amoladora",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2020-02-20T01:00:05.316Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "10",
+        "object_repr": "Amoladora",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2020-02-20T01:00:05.513Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "Martillo Neum\u00e1tico",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2020-02-20T01:00:05.588Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "Gr\u00faa 50 Ton",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2020-02-20T01:00:05.663Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Taladro de Mano",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2020-02-20T01:00:05.754Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "Taladro de banco",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2020-02-20T01:00:05.846Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Sierra Circular",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2020-02-20T01:00:05.939Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Gr\u00faa 30 Ton",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2020-02-20T01:00:06.046Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Solpete",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2020-02-20T01:00:06.127Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Soldadora El\u00e9ctrica",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2020-02-20T01:00:06.229Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Amoladora",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2020-02-20T01:15:38.855Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Amoladora",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2020-02-20T01:15:50.833Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Soldadora El\u00e9ctrica",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2020-02-20T01:16:07.270Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Solpete",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2020-02-22T00:18:46.967Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Taladro de banco",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2020-02-24T17:35:01.658Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Guantes de Nitrilo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2020-02-24T17:35:14.142Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Guantes de Soldador",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2020-02-24T17:35:25.047Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Gafas transparentes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2020-02-24T17:42:07.906Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Gafas transparentes",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"tools\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2020-02-24T17:42:15.081Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Guantes de Soldador",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"tools\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2020-02-24T17:42:23.009Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Guantes de Nitrilo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"tools\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2020-02-24T17:52:02.290Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Corte",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2020-02-24T17:52:18.219Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Riesgo El\u00e9ctrico",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2020-02-24T17:52:45.846Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Quemaduras",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2020-02-24T18:02:21.818Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Chequeo de Instalaci\u00f3n El\u00e9ctrica",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2020-02-24T18:02:46.298Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "Chequeo del Estado de la Herramienta",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2020-02-24T18:03:18.622Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "Uso de Guantes Apropiados",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2020-02-28T04:25:46.479Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "APR object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2020-03-03T18:56:54.580Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "APR object (1)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2020-03-03T19:59:12.873Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "APR object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2020-03-03T20:19:21.184Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "APRLine object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2020-03-04T20:13:08.582Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "montaje bajo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2020-03-08T23:34:41.162Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Montaje alto",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2020-03-08T23:34:53.536Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "montaje bajo",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2020-03-08T23:34:53.699Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Montaje alto",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2020-03-10T02:56:14.580Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Montaje medio",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2020-03-10T02:56:59.385Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Montaje medio",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2020-03-12T20:52:08.824Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "30",
+        "object_repr": "montaje",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2020-03-12T20:52:08.949Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "29",
+        "object_repr": "Desde otro usuario",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2020-03-12T20:52:09.043Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "28",
+        "object_repr": "primera prueba con multiple select",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2020-03-12T20:52:09.137Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "27",
+        "object_repr": "prueba con multi pl select field",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2020-03-12T20:52:09.215Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "26",
+        "object_repr": "Prueba del 11 de marzo",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2020-03-12T20:52:09.293Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "25",
+        "object_repr": "etryegreg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2020-03-12T20:52:09.371Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "24",
+        "object_repr": "Otra prueba de que anda",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2020-03-12T20:52:09.449Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "23",
+        "object_repr": "primera prueba con todo",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2020-03-12T20:52:09.527Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "22",
+        "object_repr": "sfdfgf",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2020-03-12T20:52:09.621Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "21",
+        "object_repr": "aergdgdg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2020-03-12T20:52:09.715Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "20",
+        "object_repr": "wergrtr",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2020-03-12T20:52:09.808Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "19",
+        "object_repr": "regfrfref",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2020-03-12T20:52:09.887Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "18",
+        "object_repr": "regwergwerg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2020-03-12T20:52:09.965Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "17",
+        "object_repr": "weqfwfwqef",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2020-03-12T20:52:10.058Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "16",
+        "object_repr": "refewf",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2020-03-12T20:52:10.152Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "15",
+        "object_repr": "utiugfc",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2020-03-12T20:52:10.230Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "14",
+        "object_repr": "wergefgefr",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2020-03-12T20:52:10.308Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "13",
+        "object_repr": "sdfsdfdf",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2020-03-12T20:52:10.387Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "12",
+        "object_repr": "Montaje de esta",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2020-03-12T20:52:10.465Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "11",
+        "object_repr": "qqqq",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2020-03-12T20:52:10.543Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "10",
+        "object_repr": "eeeee",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2020-03-12T20:52:10.652Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "9",
+        "object_repr": "wfwref",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2020-03-12T20:52:10.731Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "8",
+        "object_repr": "gewrgregt",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2020-03-12T20:52:10.809Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "7",
+        "object_repr": "sdfdf",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2020-03-12T20:52:10.902Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "6",
+        "object_repr": "fgdfg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2020-03-12T20:52:10.965Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "5",
+        "object_repr": "cwdwe",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2020-03-12T20:52:11.059Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "el cuarto",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2020-03-12T20:52:11.137Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "es el quinto",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2020-03-12T20:52:11.215Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "montajejejeje",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+        "action_time": "2020-03-12T20:52:11.293Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Montaje medio",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+        "action_time": "2020-03-12T20:52:50.597Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Arn\u00e9s de Seguridad",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+        "action_time": "2020-03-12T20:53:13.431Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "Polainas",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+        "action_time": "2020-03-12T20:53:19.309Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "Sierra Circular",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+        "action_time": "2020-03-12T20:53:31.921Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "Sierra Circular",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+        "action_time": "2020-03-12T20:54:04.334Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "Gafas oscuras",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+        "action_time": "2020-03-12T20:54:11.992Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "8",
+        "object_repr": "Rodilleras",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+        "action_time": "2020-03-12T20:54:16.868Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "9",
+        "object_repr": "Casco",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+        "action_time": "2020-03-12T20:54:38.668Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "10",
+        "object_repr": "Mascarilla para polvo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+        "action_time": "2020-03-12T20:54:56.315Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "11",
+        "object_repr": "Mascarilla para vapores org\u00e1nicos",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+        "action_time": "2020-03-12T20:55:12.630Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "12",
+        "object_repr": "Orejeras",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+        "action_time": "2020-03-12T20:55:32.368Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "13",
+        "object_repr": "Zapatos con puntera pl\u00e1stica",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+        "action_time": "2020-03-12T20:55:45.136Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "14",
+        "object_repr": "Zapato con puntera acero",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+        "action_time": "2020-03-12T20:55:56.185Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "15",
+        "object_repr": "Botines de seguridad",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+        "action_time": "2020-03-12T20:56:01.498Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "16",
+        "object_repr": "Mandil",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+        "action_time": "2020-03-12T20:56:20.612Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "17",
+        "object_repr": "Chaleco reflectivo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+        "action_time": "2020-03-12T20:57:27.258Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Gr\u00faa 30 Ton",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+        "action_time": "2020-03-12T20:57:44.870Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "Gr\u00faa 50 Ton",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+        "action_time": "2020-03-12T20:58:00.216Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Chispero",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+        "action_time": "2020-03-12T21:08:00.123Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "18",
+        "object_repr": "Cabo amarre sin amortiguador o retr\u00e1ctil",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+        "action_time": "2020-03-12T21:08:42.886Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "19",
+        "object_repr": "Cabo amarre con amortiguador o retr\u00e1ctil",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+        "action_time": "2020-03-12T21:09:03.545Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "20",
+        "object_repr": "Careta de soldar",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+        "action_time": "2020-03-12T21:09:15.427Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "21",
+        "object_repr": "Delantal de cuero",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+        "action_time": "2020-03-12T21:09:44.621Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "22",
+        "object_repr": "Pantalla facial",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+        "action_time": "2020-03-12T21:10:00.140Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "23",
+        "object_repr": "Lente oxicorte",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+        "action_time": "2020-03-12T21:10:43.357Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "Plataforma m\u00f3vil",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+        "action_time": "2020-03-12T21:10:54.420Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "Alargue",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+        "action_time": "2020-03-12T21:12:07.806Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "10",
+        "object_repr": "Puente gr\u00faa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+        "action_time": "2020-03-12T21:12:18.347Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "11",
+        "object_repr": "Fajas",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+        "action_time": "2020-03-12T21:12:47.680Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "12",
+        "object_repr": "Guantes de protecci\u00f3n mec\u00e1nica",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+        "action_time": "2020-03-12T21:13:03.464Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "12",
+        "object_repr": "Guantes de protecci\u00f3n mec\u00e1nica",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+        "action_time": "2020-03-12T21:13:36.685Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "24",
+        "object_repr": "Guantes de protecci\u00f3n mec\u00e1nica",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 134,
+    "fields": {
+        "action_time": "2020-03-12T21:14:01.270Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "25",
+        "object_repr": "Pantalla facial oscura",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 135,
+    "fields": {
+        "action_time": "2020-03-12T21:14:35.042Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Quemaduras",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 136,
+    "fields": {
+        "action_time": "2020-03-12T21:14:35.151Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Riesgo El\u00e9ctrico",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 137,
+    "fields": {
+        "action_time": "2020-03-12T21:14:35.323Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Corte",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 138,
+    "fields": {
+        "action_time": "2020-03-12T21:14:55.893Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "Quemadura",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 139,
+    "fields": {
+        "action_time": "2020-03-12T21:15:06.353Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "5",
+        "object_repr": "Explosi\u00f3n e incendio",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 140,
+    "fields": {
+        "action_time": "2020-03-12T21:15:17.620Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "6",
+        "object_repr": "Proyecci\u00f3n de part\u00edculas",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 141,
+    "fields": {
+        "action_time": "2020-03-12T21:15:31.813Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "7",
+        "object_repr": "Ca\u00edda mismo nivel",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 142,
+    "fields": {
+        "action_time": "2020-03-12T21:16:27.653Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "Uso de Guantes Apropiados",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 143,
+    "fields": {
+        "action_time": "2020-03-12T21:16:27.778Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "Chequeo del Estado de la Herramienta",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 144,
+    "fields": {
+        "action_time": "2020-03-12T21:16:27.872Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Chequeo de Instalaci\u00f3n El\u00e9ctrica",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 145,
+    "fields": {
+        "action_time": "2020-03-12T21:16:33.422Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "Verificar correcto estado de equipos y herramietas",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 146,
+    "fields": {
+        "action_time": "2020-03-12T21:16:59.013Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "5",
+        "object_repr": "Hacer ckl pre-uso de puente gr\u00faa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 147,
+    "fields": {
+        "action_time": "2020-03-12T21:17:52.916Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "Check list de pre uso",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 148,
+    "fields": {
+        "action_time": "2020-03-12T21:18:05.918Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "7",
+        "object_repr": "Revisi\u00f3n de fajas",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 149,
+    "fields": {
+        "action_time": "2020-03-12T21:18:17.139Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "8",
+        "object_repr": "Correcto uso y en buen estado de todos los epp",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 150,
+    "fields": {
+        "action_time": "2020-03-12T21:18:46.596Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "9",
+        "object_repr": "Encender soplete con chispero",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 151,
+    "fields": {
+        "action_time": "2020-03-12T21:19:19.685Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "10",
+        "object_repr": "\u00c1rea libre de grasa y aceite o trapos sucios",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 152,
+    "fields": {
+        "action_time": "2020-03-12T21:19:33.749Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "11",
+        "object_repr": "Contar con extintor en el \u00e1rea",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 153,
+    "fields": {
+        "action_time": "2020-03-12T21:19:44.771Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "12",
+        "object_repr": "Atenci\u00f3n en la tarea",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 154,
+    "fields": {
+        "action_time": "2020-03-12T21:20:41.843Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "13",
+        "object_repr": "Despejar de estructuras que generen tropiezos",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 155,
+    "fields": {
+        "action_time": "2020-03-12T21:21:02.815Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "14",
+        "object_repr": "Cortar de costado",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 156,
+    "fields": {
+        "action_time": "2020-03-12T21:21:25.653Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "15",
+        "object_repr": "Amarrar cada parante con faja y puente gr\u00faa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 157,
+    "fields": {
+        "action_time": "2020-03-12T21:21:39.827Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "16",
+        "object_repr": "Mantener pre tensado con el puente",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 158,
+    "fields": {
+        "action_time": "2020-03-12T21:22:10.822Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "17",
+        "object_repr": "Mantener distancia segura",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 159,
+    "fields": {
+        "action_time": "2020-03-12T21:22:55.360Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "18",
+        "object_repr": "Cuerda como gu\u00eda",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 160,
+    "fields": {
+        "action_time": "2020-03-12T21:23:41.947Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "19",
+        "object_repr": "Asegurar trayecto de carga suspendida",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 161,
+    "fields": {
+        "action_time": "2020-03-12T21:42:09.277Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "20",
+        "object_repr": "Atenci\u00f3n en interacci\u00f3n con estructuras",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 162,
+    "fields": {
+        "action_time": "2020-03-12T21:42:39.422Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "21",
+        "object_repr": "Atenci\u00f3n tr\u00e1nsito de otros equipos",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 163,
+    "fields": {
+        "action_time": "2020-03-12T21:43:06.223Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "22",
+        "object_repr": "Atenci\u00f3n tr\u00e1nsito de colaboradores",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 164,
+    "fields": {
+        "action_time": "2020-03-12T21:45:03.414Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "13",
+        "object_repr": "Faja textil",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 165,
+    "fields": {
+        "action_time": "2020-03-12T21:45:20.604Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "14",
+        "object_repr": "Eslinga de cable de acero",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 166,
+    "fields": {
+        "action_time": "2020-03-12T21:45:46.499Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "15",
+        "object_repr": "Grilletes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 167,
+    "fields": {
+        "action_time": "2020-03-12T21:46:29.803Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "26",
+        "object_repr": "Protecci\u00f3n auditiva",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 168,
+    "fields": {
+        "action_time": "2020-03-12T21:47:00.653Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "8",
+        "object_repr": "Ca\u00edda distinto nivel",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 169,
+    "fields": {
+        "action_time": "2020-03-12T21:47:16.406Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "9",
+        "object_repr": "Radiaciones no ionizantes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 170,
+    "fields": {
+        "action_time": "2020-03-12T21:47:30.846Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "10",
+        "object_repr": "Corte",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 171,
+    "fields": {
+        "action_time": "2020-03-12T21:47:40.613Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "11",
+        "object_repr": "Ruido",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 172,
+    "fields": {
+        "action_time": "2020-03-12T21:47:51.679Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "12",
+        "object_repr": "Apretamiento",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 173,
+    "fields": {
+        "action_time": "2020-03-12T21:48:01.572Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "13",
+        "object_repr": "Aplastamiento",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 174,
+    "fields": {
+        "action_time": "2020-03-12T21:48:11.528Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "14",
+        "object_repr": "Ca\u00edda de objetos en manipulaci\u00f3n",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 175,
+    "fields": {
+        "action_time": "2020-03-12T21:48:48.612Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "15",
+        "object_repr": "Ca\u00edda de pieza durante el izaje",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 176,
+    "fields": {
+        "action_time": "2020-03-12T21:49:51.638Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "23",
+        "object_repr": "Se\u00f1alizar la zona previo al izaje",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 177,
+    "fields": {
+        "action_time": "2020-03-12T21:50:50.397Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "24",
+        "object_repr": "Aislaci\u00f3n correcta de alargues",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 178,
+    "fields": {
+        "action_time": "2020-03-12T21:51:13.854Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "25",
+        "object_repr": "Amoladora con protecciones",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 179,
+    "fields": {
+        "action_time": "2020-03-12T21:51:27.325Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "26",
+        "object_repr": "Disco de amoladora adecuado",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 180,
+    "fields": {
+        "action_time": "2020-03-12T21:52:24.101Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "27",
+        "object_repr": "Amarrado el 100 % del tiempo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 181,
+    "fields": {
+        "action_time": "2020-03-12T21:52:43.636Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "28",
+        "object_repr": "Realizar plan de izaje con gruista",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 182,
+    "fields": {
+        "action_time": "2020-03-12T21:53:10.077Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "29",
+        "object_repr": "Tener en cuenta radio de giro gr\u00faa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 183,
+    "fields": {
+        "action_time": "2020-03-12T21:53:28.955Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "30",
+        "object_repr": "Comunicaci\u00f3n con gruista",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 184,
+    "fields": {
+        "action_time": "2020-03-12T21:53:43.817Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "31",
+        "object_repr": "Establecer se\u00f1alero",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 185,
+    "fields": {
+        "action_time": "2020-03-12T21:54:19.559Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "32",
+        "object_repr": "Todos deben unirse a los bloqueos de energ\u00eda",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 186,
+    "fields": {
+        "action_time": "2020-03-12T21:58:30.736Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "33",
+        "object_repr": "Determinar responsable se\u00f1as a gruista",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 187,
+    "fields": {
+        "action_time": "2020-03-12T21:59:43.452Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "34",
+        "object_repr": "No superponer tareas",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 188,
+    "fields": {
+        "action_time": "2020-03-12T22:00:40.323Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "35",
+        "object_repr": "Atropello trabajadores zona de tr\u00e1nsito o izaje",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 189,
+    "fields": {
+        "action_time": "2020-03-14T00:43:16.864Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "23",
+        "object_repr": "Montaje de Cilindro",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"activities\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 190,
+    "fields": {
+        "action_time": "2020-03-14T00:43:31.323Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "33",
+        "object_repr": "Soplar el mono",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 191,
+    "fields": {
+        "action_time": "2020-03-18T04:50:59.069Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "16",
+        "object_repr": "Tito",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"is_active\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 192,
+    "fields": {
+        "action_time": "2020-03-18T14:26:04.987Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "6",
+        "object_repr": "Eldiegodos",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"username\", \"email\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 193,
+    "fields": {
+        "action_time": "2020-03-18T15:20:47.773Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "1",
+        "object_repr": "dgmendieta@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+},
+{
+    "model": "APR.apr",
+    "pk": 31,
+    "fields": {
+        "title": "Montaje de Cilindro",
+        "created_at": "2020-03-12T22:10:58.753Z",
+        "documentnumber": 1,
+        "comments": "Poner cilindro",
+        "user": 1,
+        "status": "Iniciado"
+    }
+},
+{
+    "model": "APR.apr",
+    "pk": 34,
+    "fields": {
+        "title": "Montaje editado",
+        "created_at": "2020-03-14T00:29:14.635Z",
+        "documentnumber": 4,
+        "comments": "Montaje",
+        "user": 1,
+        "status": "Iniciado"
+    }
+},
+{
+    "model": "APR.apr",
+    "pk": 35,
+    "fields": {
+        "title": "Prueba para video editado",
+        "created_at": "2020-03-14T00:45:11.621Z",
+        "documentnumber": 5,
+        "comments": "Prueba para video",
+        "user": 1,
+        "status": "Completado"
+    }
+},
+{
+    "model": "APR.apr",
+    "pk": 37,
+    "fields": {
+        "title": "Documento ingresado por admin",
+        "created_at": "2020-03-15T16:53:26.232Z",
+        "documentnumber": 7,
+        "comments": "Cortar estructura",
+        "user": 4,
+        "status": "Iniciado"
+    }
+},
+{
+    "model": "APR.apr",
+    "pk": 40,
+    "fields": {
+        "title": "Documento ingresado por Laura",
+        "created_at": "2020-03-15T17:00:54.988Z",
+        "documentnumber": 10,
+        "comments": "Construir piscina",
+        "user": 2,
+        "status": "Iniciado"
+    }
+},
+{
+    "model": "APR.apr",
+    "pk": 41,
+    "fields": {
+        "title": "Mantenimiento de c\u00e1maras",
+        "created_at": "2020-03-15T17:03:12.293Z",
+        "documentnumber": 11,
+        "comments": "Realizado por personal externo.",
+        "user": 2,
+        "status": "Completado"
+    }
+}
+]

@@ -1,0 +1,106 @@
+
+ <div class="card bg-light mb-12">
+  
+    <form method="POST">
+        <div class="card-header"><h4>Datos del Documento</h4></div>
+   <div class="card-body">
+    {% csrf_token %}
+    {{ form.non_field_errors }}
+        <table id="table" class="table table-bordered table-dark table-hover">
+            <thead>
+                <tr>
+                 
+                    <th scope="col">{{ form.title.label_tag }}</th>
+                    <th scope="col">{{ form.status.label_tag }}</th>
+                    <th scope="col">{{ form.comments.label_tag }}</th>
+                </tr>
+            </thead>
+
+        <tbody>
+         
+            <tr>
+              
+                <td>{{ form.title }}
+                    <small class="form-text text-muted">
+                    {{ form.title.help_text }}</small></td>
+                <td>{{ form.status }}
+                    <small class="form-text text-muted">
+                    {{ form.status.help_text }}</small></td>
+                <td>{{ form.comments }}
+                    <small class="form-text text-muted">
+                    {{ form.comments.help_text }}</small></td>
+                
+            </tr>
+         
+        </tbody>
+
+    </table>
+    </div>
+</div>
+
+<div class="postnav"></div>
+<div class="card bg-light mb-12">
+   <div class="card-header"><h4>Lineas del Documento</h4></div>
+
+<div class="card-body">
+    {{ formset.management_form }}
+    {% for form in formset %}
+        {{ form.non_field_errors }}
+        {{ form.id }}    
+        <table id="table" class="table table-bordered table-dark table-hover">
+            <thead>
+                <tr>
+                	<th scope="col">Linea</th>
+                    <th scope="col">{{ form.activities.label_tag }}</th>
+                    <th scope="col">{{ form.tools.label_tag }}</th>
+                    <th scope="col">{{ form.epps.label_tag }}</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+            	   <td>{{ forloop.counter }}</td>
+                    <td>{{ form.activities }}
+                    <small class="form-text text-muted">
+                    {{ form.activities.help_text }}</small>
+                    {{ form.apr }}</td>
+                    <td>{{ form.tools }}
+                    <small class="form-text text-muted">
+                    {{ form.tools.help_text }}</small></td>
+                    <td>{{ form.epps }}
+                    <small class="form-text text-muted">
+                    {{ form.epps.help_text }}</small></td>
+                   
+                </tr>
+            </tbody>
+            <thead>
+                <tr>
+                    
+                    <th scope="col" colspan="2">{{ form.hazards.label_tag }}</th>
+                    <th scope="col" colspan="2">{{ form.precautions.label_tag }}</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">{{ form.hazards }}
+                    <small class="form-text text-muted">
+                    {{ form.hazards.help_text }}</small></td>
+                    <td colspan="2">{{ form.precautions }}
+                    <small class="form-text text-muted">
+                    {{ form.precautions.help_text }}</small></td>
+                </tr>
+            </tbody>
+
+        </table>
+    {% endfor %} 
+
+
+<div class="col-md-4">
+    <button class="btn btn-success" type="submit">Guardar</button>
+    <button class="btn btn-info" type="submit" disabled="true">Guardar e Imprimir</button>
+</div>
+</div>  
+</div>  
+
+</form>
+

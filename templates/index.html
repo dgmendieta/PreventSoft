@@ -1,0 +1,31 @@
+{% extends 'base.html'%}
+
+	 {% block content %}
+	 {% load static %}
+     
+<div class="col-md-4 offset-md-2">
+ <div class="card bg-light mb-3">
+  <div class="card-header"><h4>Login</h4></div>
+ <!-- Login Form-->
+   <div class="card-body">
+    <form method="post">
+       {% csrf_token %}
+    	<div class="form-group">
+     		<label for="username"> Nombre de Usuario</label>
+     		<input type="text" name="username" class="form-control" placeholder="Ingrese el Usuario">
+     		<label for="password"> Clave</label>
+        <div class="input-group mb-3">
+     		<input type="password" name="password" id="id_password" class="form-control" placeholder="Ingrese su Clave">
+        <div class="input-group-append">
+          <span class="input-group-text" id="basic-addon2"><i class="fa fa-eye" id="show"></i></span>
+        </div>
+        </div>
+     	</div> 
+        <button type="submit" class="btn btn-primary">Ingresar</button>
+   </form>
+   </div>
+    
+ </div>
+</div>
+	 {% endblock %}
+

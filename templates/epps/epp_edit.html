@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block content %}      
+{% if user.is_authenticated and user.is_superuser %}
+<div class="col-md-6 offset-md-1">
+ <div class="card bg-light mb-6">
+    <div class="card-header">
+    <h2>Editar Equipo de Protección Personal</h2>
+    </div>
+    <!-- Form -->
+    <div class="card-body">
+    <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {% for field in form %}
+        <div class="form-group">
+        {{ field.label_tag }}
+        {{ field }}
+        <small class="form-text text-muted">
+        {{ field.help_text }}</small>
+        {% if field.errors %}
+          {{ field.errors }}
+        {% endif %}  
+        </div>
+    {% endfor %}
+    
+    
+    <button type="submit" class="btn btn-primary">Editar</button>
+    <a class="btn btn-success" href="{% url 'epp_list' %}" role="button">
+                     Volver al listado</a>
+
+    </form>
+    </div>
+</div>
+</div>
+
+        {% else %}
+        <div class="col-md-8">
+            <p>Debe acceder con su nombre de usuario y contraseña para ver este contenido</p>
+            <a href="{% url 'index' %}" class="btn btn-primary">Ir al Login</a>
+        </div>        
+        {% endif %}             
+        
+       
+        </div>  
+{% endblock %}
