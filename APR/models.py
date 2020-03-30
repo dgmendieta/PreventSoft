@@ -35,7 +35,9 @@ class APR(models.Model):
 	#The status is hardcoded now, but will change in future.
 	APR_STATUS = (
         ('Iniciado', 'Iniciado'),
-        ('Completado', 'Completado'),
+        ('Completado sin incidentes', 'Completado sin incidentes'),
+        ('Completado con incidentes', 'Completado con incidentes'),
+        ('Completado con incidentes graves', 'Completado con incidentes graves'),
         ('Cancelado', 'Cancelado'),
     )
 
