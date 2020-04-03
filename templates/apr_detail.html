@@ -59,7 +59,8 @@
                 	<ul>
                 		{% for tool in line.tools.all %}
                             {% if tool.image %}
-                                <li><a href="{{ tool.image.url }}">{{ tool.name }}</a></li>
+                                <li><a href="{{ tool.image.url }}" target="blank">
+                                    {{ tool.name }}</a></li>
                             {% else %}
                                 <li>{{ tool.name }}</li>
                             {% endif %}    

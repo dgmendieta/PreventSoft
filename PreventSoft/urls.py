@@ -42,7 +42,7 @@ urlpatterns = [
     path('tools/tool_edit/<int:pk>/', views.tool_edit, name='tool_edit'),
     path('tools/tool_delete/<int:pk>/', views.tool_delete, name='tool_delete'),
     #admin url
-    path('admin/', admin.site.urls),
+    #path('admin/', admin.site.urls),
     
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
