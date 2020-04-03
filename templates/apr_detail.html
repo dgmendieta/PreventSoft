@@ -58,14 +58,22 @@
                 <td>
                 	<ul>
                 		{% for tool in line.tools.all %}
-                			<li>{{ tool.name }}</li>
+                            {% if tool.image %}
+                                <li><a href="{{ tool.image.url }}">{{ tool.name }}</a></li>
+                            {% else %}
+                                <li>{{ tool.name }}</li>
+                            {% endif %}    
                 		{% endfor %}
                 	</ul>
                 </td>
                 <td>
                 	<ul>
                 		{% for epp in line.epps.all %}
-                			<li>{{ epp.name }}</li>
+                			{% if epp.image %}
+                                <li><a href="{{ epp.image.url }}">{{ epp.name }}</a></li>
+                            {% else %}
+                                <li>{{ epp.name }}</li>
+                            {% endif %}    
                 		{% endfor %}
                 	</ul>
                 </td>
